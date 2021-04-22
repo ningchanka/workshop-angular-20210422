@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'demo01';
   result = "...";
   username = ""
+  tasks = ['Task 1', 'Task 2']
 
   onPress(event: any) {
     console.log(event.target.value)
