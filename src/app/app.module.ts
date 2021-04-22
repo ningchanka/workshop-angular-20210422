@@ -19,6 +19,6 @@ import { XyzComponent } from './login/xyz.component';
     FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [LoginComponent]
 })
 export class AppModule { }
